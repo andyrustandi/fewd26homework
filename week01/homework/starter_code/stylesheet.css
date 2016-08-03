@@ -1,0 +1,83 @@
+body{
+	background: #F6F6F6;
+	display: block;
+	color: #05080C;
+	font-family: sans-serif;
+	font-size: 18px;
+	margin-right: 5em;
+	margin-left: 5em;
+	border-top: 5px solid black;
+	border-bottom: 5px solid black;
+	padding-top: 10px;
+}
+
+nav ol li a {
+	text-decoration: none;
+}
+
+img {
+	float: right;
+}
+
+p{
+	font-size: 19px;
+}
+
+ol {
+	font-size: 20px;
+}
+
+h1 {
+	font-family: sans-serif;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 25px;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+h2,h3,h4, p {
+	font-family: sans-serif;
+}
+
+#modern {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#discovery {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#dynasty {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+th {
+	background: black;
+	color: white;
+	font-size: 20px;
+}
+
+td {
+	background: #eee;
+	padding: 10px;
+}
+
+tr td{
+	font-size: 20px;
+}
+
+li {
+	font-size: 19px;
+}
+

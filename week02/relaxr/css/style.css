@@ -1,0 +1,191 @@
+/* Box Model Hack */
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+body {
+	font-size: 26px;
+	color: #606161;
+	line-height: 1.4;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: 300;	
+}
+
+a {
+	text-decoration: none;
+	display: inline;
+}
+ 
+/* Center the Container*/
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+} 
+
+.logo {
+	font-size: 48px;
+	font-weight: 800;
+	color: white;
+	font-family: sans-serif;
+
+
+}
+
+.pageIntro {
+	background: url("../images/header_bg.jpg") top center;
+	background-size: cover;
+	padding: 30px 0;
+}
+
+.tagline{
+	font-size: 48px;
+	text-align: center;
+	color: white;
+	margin: 120px 0 90px;
+	font-weight: 600;
+}
+
+.btn {
+	border-radius: 5px;
+	font-weight: 800;
+	padding: 12px 0;
+	width: 280px;
+	font-size: 28px;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+
+.btn-cta {
+	background: #f9e42e;
+	color: #033048;
+	font-size: 24px;
+}
+
+ 
+.benefit {
+	font-size: 40px;
+	color: #033048;
+}
+
+.page {
+	color: #606161;
+	font-size: 30px;
+	margin: 20px, 60px, 20px, 60px;
+}
+
+.container ul {
+	font-size: 25px;
+	color: #606161;
+	margin-left: 50px;
+}
+
+.mid_sec {
+	background: url("../images/testimonial_bg.jpg");
+	background-size: cover;
+	padding: 20px 0;
+}
+
+.sub_page {
+	font-size: 30px;
+	margin: 50px;
+	float: center;
+	padding: 0, 80px, 80px, 80px;
+}
+.nameTag {
+	font-size: 25px;
+	font-weight: bold;
+	margin: 0;
+	
+}
+
+.commit {
+	background: #f9e42e;
+	padding: 30px;
+	text-align: center;
+}
+
+.button-cta {
+	color: white;
+	background: #033048;
+	font-size: 25px;
+
+}
+
+footer {
+	background: #121212;
+	height: 300px;
+	padding-top: 30px;
+}
+
+h3 {
+	font-size: 48px;
+	color: white;
+}
+
+.relax {
+	color: yellow;
+	font: 30px;
+}
+
+.fa {
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	margin: 0 auto;
+}
+
+ul li a i .fa {
+	text-align: center;
+	text-decoration: none;
+	display: inline;
+}
+
+p {
+	text-align: center;
+	font-family: sans-serif;
+	color: white;
+	font-style: bold;
+}
+
+h3 {
+	font-size: 40px;
+}
+
+.footericon {
+	text-align: center;
+	display: inline-block;
+	list-style: none;
+}
+
+.footericon li {
+	padding-right: 20px;
+	margin: 20px;
+	display: inline-block;
+}
+
+.foot {
+	text-align: center;
+	text-decoration: none;
+}
+
+.copyright {
+	margin: -25px;
+
+}
+
+
+

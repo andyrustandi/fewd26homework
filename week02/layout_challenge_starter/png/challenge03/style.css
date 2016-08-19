@@ -1,0 +1,65 @@
+header {
+	background: pink;
+	height: 100px;
+	width: 100%;
+	border: 2px solid black;
+}
+
+.section_mid {
+	background: purple;
+	border: 1px solid blue;
+	padding: 20px;
+	margin: 5px;
+	height: 100px;
+	width: 20%;
+	float: left;
+	
+}
+
+.aside {
+	background: yellow;
+	border : 1px solid red;
+	padding: 20px;
+	margin: 5px;
+	height: 100px;
+	width: 20%;
+	float: right;
+}
+
+.section_center {
+	background: blue;
+	border : 1px solid grey;
+	padding: 20px;
+	margin: 5px;
+	height: 100px;
+	width: 40%;
+	float: left;
+}
+
+.wrapper {
+	height: 960;
+	width: 100%;
+}
+
+.clearfix {
+	display: table;
+	clear: both;
+}
+
+.section {
+	width: 100%;
+	height: 960;
+}
+
+.box_left {
+	
+}
+
+footer {
+	background: green;
+    border: 1px solid orange;
+	height: 100px;
+	width: 100%;
+	clear: both;
+
+}
